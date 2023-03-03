@@ -22,3 +22,23 @@ document.write(fran.nombre);
 document.write(fran.apellidos);
 document.write(fran.edad);
 
+
+
+
+
+
+function ejemploTypeOfyInstanceOf(){
+	let variable1 = 10;
+	let variable2 = 5.3;
+	
+	document.write("<br>" + typeof(variable1)); // TypeOf
+	document.write(typeof variable2);  // TypeOf
+	
+	document.write("<br>" + variable1 instanceof Object); // InstanceOf
+	document.write(variable1 instanceof Number);
+}
+
+function ejemploTiposPrimitivos(){
+	
+}
+
