@@ -64,11 +64,14 @@ function ejemploOperadoresLogicosYEspeciales(){
 		this.anyoFabricacion = anyoFabricacion;
 	}
 	
-	let vehiculo = coche("Honda", "Civic", 2010);
-	let vehiculo1 = coche("Honda", "Civic", 2010);
+	let vehiculo = new coche("Honda", "Civic", 2010);
+	let vehiculo1 = new coche("Honda", "Civic", 2010);
+	let vehiculo2 = new coche("Honda", "Civic", 2016);
 	console.log(vehiculo && vehiculo1);
 	console.log(vehiculo == vehiculo1);
+	console.log(vehiculo == vehiculo2);
 	console.log(vehiculo === vehiculo1);
+	console.log(vehiculo === vehiculo2);
 }
 
 function ejemploOperadoresLogicosYEspeciales2(){
