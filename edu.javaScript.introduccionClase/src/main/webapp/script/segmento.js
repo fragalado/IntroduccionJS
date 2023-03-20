@@ -11,7 +11,7 @@ class Segmento {
 	}
 
 	// Métodos
-	distanciaPuntos() {
+	longitudSegmento() {
 		return this.final - this.inicio;
 	}
 }
@@ -21,6 +21,6 @@ class Segmento {
 let sg1 = new Segmento(5, 20);
 
 // Imprimimos por la consola del navegador la longitud
-console.log(sg1.distanciaPuntos());
+console.log(sg1.longitudSegmento());
 console.log(typeof sg1);
 console.log(sg1 instanceof Segmento)
