@@ -3,9 +3,6 @@
  */
 
 function ventanaTemporal(){
-
-	
-	window.open("about::blank" , "ventana1", "width=120,height=300,scrollbars=NO");
-	
-	close("ventana1");
+	// Abre un html en una nueva ventana
+	window.open("./ventanaTemporizador.html" , "ventana1", "width=120,height=300,scrollbars=NO");
 }

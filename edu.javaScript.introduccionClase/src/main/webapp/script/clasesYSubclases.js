@@ -32,7 +32,6 @@ class Cuadrado extends Poligono {
 	// Constructor
 	constructor(lado) {
 		super(lado, lado);
-		this.lado = lado;
 		this.nombre = "Cuadrado";
 	}
 
@@ -48,4 +47,3 @@ console.log(c1.devolverNombre());
 console.log("Area cuadrado: " + c1.areaCuadrado());
 document.write("Altura cuadrado: " + c1.altura);
 document.write("<br>Anchura cuadrado: " + c1.ancho);
-document.write("<br>Lado cuadrado: " + c1.lado);

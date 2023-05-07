@@ -7,18 +7,16 @@ function llamadaPrompt() {
 	let mensajeUsuario = "¿Como te llamas?";
 	// Guardamos en una variable el valor que introduzca el usuario 
 	let respuestaUsuario = prompt(mensajeUsuario);
-
+	
 	// Imprimimos en pantalla el valor
-	document.write(respuestaUsuario);
-}
-
-
-// Pedimos el nombre por pantalla y lo guardamos en una variable
-let nombreUsuario = prompt("¿Cual es tu nombre?");
-// Llamamos a una funcion pasandole como parametro el nombre
-escribePantallaNombre(nombreUsuario);
-
-function escribePantallaNombre(nombreUsuario) {
-	// Lo escribe por pantalla
-	document.write(nombreUsuario);
+	//document.write(respuestaUsuario);
+	
+	if(respuestaUsuario == "")
+		console.log("vacio");
+	
+	else if(respuestaUsuario == null)
+		console.log("es null");
+		
+	console.log(respuestaUsuario);
+	console.log(typeof respuestaUsuario);
 }

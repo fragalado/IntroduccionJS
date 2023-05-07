@@ -23,7 +23,7 @@ function Ejemplo1(){
 function Ejemplo2(){
 	if (x) {
 	  let foo;
-	  // let foo; TENEMOS QUE COMENTAR ALGUNO DE LOS DOS PARA QUE NO DE ERROR
+	  let foo; TENEMOS QUE COMENTAR ALGUNO DE LOS DOS PARA QUE NO DE ERROR
 	}
 }
 
